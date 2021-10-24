@@ -5,7 +5,7 @@
 document.body.onload = addElement;
 
 function addElement () {
-  //Creiamo i due elementi div
+  //Creiamo i due elementi div 
 
   const newDiv1 = document.createElement("div1");
   const newDiv2 = document.createElement("div2");
