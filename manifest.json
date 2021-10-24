@@ -1,0 +1,14 @@
+{
+  "name": "ADHD Focus Reading",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "description": "Un po' di sollievo in un mondo freddo e indifferente",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "exclude_matches": ["https://*.youtube.com/*","https://soap2day.to/*"],
+      "run_at": "document_idle",
+      "js": ["content.js"]
+    }
+  ]
+}
